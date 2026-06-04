@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 750" width="1000" height="750">
+  <rect width="1000" height="750" fill="#14130f"/>
+  <g transform="translate(500 320)" fill="none" stroke="#3b4cff" stroke-width="3">
+    <rect x="-46" y="-26" width="92" height="52" rx="12" fill="#3b4cff" stroke="none"/>
+    <line x1="-38" y1="-20" x2="-150" y2="-112"/>
+    <line x1="38" y1="-20" x2="150" y2="-112"/>
+    <line x1="-38" y1="20" x2="-150" y2="112"/>
+    <line x1="38" y1="20" x2="150" y2="112"/>
+    <ellipse cx="-162" cy="-122" rx="62" ry="14"/>
+    <ellipse cx="162" cy="-122" rx="62" ry="14"/>
+    <ellipse cx="-162" cy="122" rx="62" ry="14"/>
+    <ellipse cx="162" cy="122" rx="62" ry="14"/>
+  </g>
+  <text x="70" y="102" fill="#f4f3ef" font-family="Manrope, Arial, sans-serif" font-size="30" font-weight="700" letter-spacing="6">ELTODO</text>
+  <text x="930" y="102" fill="#8a8780" font-family="Manrope, Arial, sans-serif" font-size="28" font-weight="600" text-anchor="end">2016</text>
+  <text x="70" y="602" fill="#f4f3ef" font-family="Manrope, Arial, sans-serif" font-size="88" font-weight="800">Drone</text>
+  <text x="70" y="688" fill="#f4f3ef" font-family="Manrope, Arial, sans-serif" font-size="88" font-weight="800">Catalogue</text>
+</svg>

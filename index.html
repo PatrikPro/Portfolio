@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Patrik Procházka — Designer &amp; Developer</title>
+  <meta name="description" content="Portfolio of Patrik Procházka — a Prague-based designer &amp; developer crafting brands and the websites that carry them." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Manrope:wght@500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to content</a>
+
+  <main id="main">
+    <!-- ===================== HERO ===================== -->
+    <section class="hero" id="hero">
+      <div class="hero__texture" aria-hidden="true"></div>
+
+      <div class="hero__wordmark">
+        <h1 class="hero__name hero__name--first"><span class="reveal-line"><span>PATRIK</span></span></h1>
+
+        <figure class="hero__portrait reveal-pop">
+          <img src="assets/portrait.jpg" alt="Portrait of Patrik Procházka" />
+        </figure>
+
+        <h1 class="hero__name hero__name--last"><span class="reveal-line"><span>PROCHÁZKA</span></span></h1>
+      </div>
+
+      <!-- Corner micro-labels -->
+      <p class="hero__label hero__label--tl reveal">Designer &amp; developer<br />crafting brands &amp; websites</p>
+      <p class="hero__label hero__label--tr reveal">Available<br />for work</p>
+      <p class="hero__label hero__label--bc reveal">
+        <span id="clock">--:--:--</span> · Prague, Czech Republic
+      </p>
+    </section>
+
+    <!-- ===================== SERVICES ===================== -->
+    <section class="section services" id="skills">
+      <div class="container">
+        <header class="services__head">
+          <h2 class="services__title reveal">What I do <span class="accent">best?</span></h2>
+          <p class="services__intro reveal">
+            <!-- TODO: short intro -->
+            A multidisciplinary practice spanning design and engineering — turning
+            ambitious ideas into fast, refined, memorable products.
+          </p>
+        </header>
+
+        <div class="services__layout">
+          <div class="services__list">
+            <!-- TODO: edit your services -->
+            <article class="service reveal">
+              <span class="service__num">01</span>
+              <div class="service__body">
+                <h3 class="service__name">Web Development</h3>
+                <p class="service__desc">Production-grade front-ends with a focus on performance, accessibility, and motion.</p>
+                <ul class="service__tags">
+                  <li>React / Next.js</li><li>TypeScript</li><li>GSAP</li><li>Node & APIs</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="service reveal">
+              <span class="service__num">02</span>
+              <div class="service__body">
+                <h3 class="service__name">Product Design</h3>
+                <p class="service__desc">End-to-end product thinking, from flows and wireframes to polished UI.</p>
+                <ul class="service__tags">
+                  <li>UX</li><li>Design systems</li><li>Prototyping</li><li>Figma</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="service reveal">
+              <span class="service__num">03</span>
+              <div class="service__body">
+                <h3 class="service__name">Motion & Interaction</h3>
+                <p class="service__desc">Scroll-driven storytelling and micro-interactions that make a site feel alive.</p>
+                <ul class="service__tags">
+                  <li>ScrollTrigger</li><li>WebGL basics</li><li>Lenis</li><li>SVG</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="service reveal">
+              <span class="service__num">04</span>
+              <div class="service__body">
+                <h3 class="service__name">Brand & Art Direction</h3>
+                <p class="service__desc">Identity systems and visual language that scale across every touchpoint.</p>
+                <ul class="service__tags">
+                  <li>Identity</li><li>Typography</li><li>Guidelines</li><li>Art direction</li>
+                </ul>
+              </div>
+            </article>
+          </div>
+
+          <!-- Sticky card -->
+          <aside class="services__sticky">
+            <div class="biz-card">
+              <span class="biz-card__logo">PP<span class="dot">.</span></span>
+              <div class="biz-card__meta">
+                <strong>Patrik Procházka</strong>
+                <span>BBA · Designer &amp; Developer</span>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== ABOUT ===================== -->
+    <section class="section about" id="about">
+      <div class="container">
+        <p class="about__lead reveal">
+          <!-- DRAFT bio — rewrite in your own voice -->
+          I design brands and build the websites that carry them. A business
+          degree, a decade of freelance work, and an eye for the details most
+          people never notice — the timing of a transition, the weight of a
+          typeface, the half-pixel that makes a layout feel right.
+        </p>
+        <div class="about__cta reveal">
+          <a href="#contact" class="btn" data-scroll>Work with me</a>
+          <a href="#work" class="btn btn--ghost" data-scroll>See selected work</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== AWARDS (hidden for now — ask Claude to restore) ===================== -->
+
+    <!-- ===================== WORK / PORTFOLIO ===================== -->
+    <section class="section work" id="work">
+      <div class="container">
+        <header class="section__head">
+          <span class="section__index">01</span>
+          <h2 class="section__title reveal">Selected work</h2>
+        </header>
+
+        <div class="work__grid">
+          <a href="https://coffee-art-teal.vercel.app/" class="project reveal" target="_blank" rel="noopener">
+            <div class="project__media"><img src="assets/project-cafeart.jpg" alt="CaféArt coffee brand website" loading="lazy" /></div>
+            <div class="project__info"><h3 class="project__title">CaféArt</h3><span class="project__tag">Web · Brand</span></div>
+          </a>
+          <a href="https://noir-roastery.vercel.app/" class="project reveal" target="_blank" rel="noopener">
+            <div class="project__media"><img src="assets/project-noir.jpg" alt="Noir Roastery coffee website" loading="lazy" /></div>
+            <div class="project__info"><h3 class="project__title">Noir Roastery</h3><span class="project__tag">Web · Brand</span></div>
+          </a>
+          <a href="https://salon-template-rouge.vercel.app/" class="project reveal" target="_blank" rel="noopener">
+            <div class="project__media"><img src="assets/project-luna.jpg" alt="Luna Studio salon website and identity" loading="lazy" /></div>
+            <div class="project__info"><h3 class="project__title">Luna Studio</h3><span class="project__tag">Web · Identity</span></div>
+          </a>
+          <a href="https://auto-service-omega.vercel.app/" class="project reveal" target="_blank" rel="noopener">
+            <div class="project__media"><img src="assets/project-auto.jpg" alt="Auto-service website" loading="lazy" /></div>
+            <div class="project__info"><h3 class="project__title">Auto-Service</h3><span class="project__tag">Web Development</span></div>
+          </a>
+          <div class="project reveal">
+            <div class="project__media"><img src="assets/project-eltodo.svg" alt="Drone catalogue for Eltodo" loading="lazy" /></div>
+            <div class="project__info"><h3 class="project__title">Eltodo · Drone Catalogue</h3><span class="project__tag">Catalogue · 2016</span></div>
+          </div>
+          <div class="project reveal">
+            <div class="project__media"><img src="assets/project-energoklastr.svg" alt="Model-predictive control catalogue for Energoklastr" loading="lazy" /></div>
+            <div class="project__info"><h3 class="project__title">Energoklastr · MPC Catalogue</h3><span class="project__tag">Catalogue · 2016</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== EXPERIENCE ===================== -->
+    <section class="section timeline">
+      <div class="container">
+        <header class="section__head">
+          <span class="section__index">02</span>
+          <h2 class="section__title reveal">Work experience</h2>
+        </header>
+        <ul class="timeline__list">
+          <li class="timeline__item reveal">
+            <span class="timeline__period">2019 — Now</span>
+            <div class="timeline__detail"><h3>Freelance Web Developer</h3><p>Independent</p></div>
+          </li>
+          <li class="timeline__item reveal">
+            <span class="timeline__period">2017 — Now</span>
+            <div class="timeline__detail"><h3>Freelance Product Design</h3><p>Independent</p></div>
+          </li>
+          <li class="timeline__item reveal">
+            <span class="timeline__period">2016 — Now</span>
+            <div class="timeline__detail"><h3>Freelance Designer</h3><p>Photoshop</p></div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===================== TESTIMONIALS (hidden for now — ask Claude to restore) ===================== -->
+
+    <!-- ===================== FAQ ===================== -->
+    <section class="section faq" id="faq">
+      <div class="container">
+        <header class="section__head">
+          <span class="section__index">03</span>
+          <h2 class="section__title reveal">FAQ</h2>
+        </header>
+
+        <ul class="faq__list">
+          <!-- TODO: edit questions/answers -->
+          <li class="faq__item reveal">
+            <button class="faq__q" aria-expanded="false">
+              <span>How do you ensure high-quality work?</span><span class="faq__icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq__a"><p>Every project goes through design reviews, accessibility checks, and performance budgets before launch.</p></div>
+          </li>
+          <li class="faq__item reveal">
+            <button class="faq__q" aria-expanded="false">
+              <span>Do you work independently or as part of a team?</span><span class="faq__icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq__a"><p>Both — I lead solo builds and also embed with product and design teams as needed.</p></div>
+          </li>
+          <li class="faq__item reveal">
+            <button class="faq__q" aria-expanded="false">
+              <span>What's your typical project timeline?</span><span class="faq__icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq__a"><p>Most marketing sites run 3–6 weeks; product work is scoped per engagement.</p></div>
+          </li>
+          <li class="faq__item reveal">
+            <button class="faq__q" aria-expanded="false">
+              <span>How do you approach client feedback?</span><span class="faq__icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq__a"><p>Frequent, async check-ins with shared previews so there are no surprises.</p></div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===================== CONTACT ===================== -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <header class="section__head">
+          <span class="section__index">04</span>
+          <h2 class="section__title reveal">Let's get <span class="accent">started</span></h2>
+        </header>
+
+        <div class="contact__grid">
+          <div class="contact__intro reveal">
+            <h3 class="contact__sub">How can I help?</h3>
+            <p class="contact__lead">I'd love to hear more about your project or company.</p>
+            <a class="contact__mail" href="mailto:patrik.prochazka.ez@gmail.com">patrik.prochazka.ez@gmail.com</a>
+          </div>
+
+          <form class="contact__form reveal" id="contactForm" novalidate>
+            <!-- Web3Forms honeypot: hidden from people, bots that tick it get rejected -->
+            <input type="checkbox" name="botcheck" tabindex="-1" autocomplete="off" aria-hidden="true" style="display:none" />
+            <div class="field">
+              <label for="cf-name">Your Full Name <span class="req">*</span></label>
+              <input id="cf-name" name="name" type="text" placeholder="John Smith" autocomplete="name" required />
+            </div>
+            <div class="field">
+              <label for="cf-role">Your Role <span class="req">*</span></label>
+              <input id="cf-role" name="role" type="text" placeholder="Founder, Recruiter, Freelancer, etc." required />
+            </div>
+            <div class="field">
+              <label for="cf-email">Your E-mail Address <span class="req">*</span></label>
+              <input id="cf-email" name="email" type="email" placeholder="mail@example.com" autocomplete="email" required />
+            </div>
+            <fieldset class="field field--radio">
+              <legend>Your status? <span class="req">*</span></legend>
+              <div class="radio-row">
+                <label class="radio"><input type="radio" name="status" value="I have a project" required /><span>I have a project</span></label>
+                <label class="radio"><input type="radio" name="status" value="I am a recruiter" /><span>I am a recruiter</span></label>
+              </div>
+            </fieldset>
+            <div class="field">
+              <label for="cf-msg">More info <span class="req">*</span></label>
+              <textarea id="cf-msg" name="message" rows="4" placeholder="What's this about? Project, hiring, or opportunity?" required></textarea>
+            </div>
+            <button type="submit" class="btn contact__submit">Submit <span class="contact__arrow" aria-hidden="true">&rarr;</span></button>
+            <p class="contact__status" id="contactStatus" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== FOOTER ===================== -->
+    <footer class="footer">
+      <div class="footer__marquee" aria-hidden="true">
+        <div class="footer__watermark">CONTACT</div>
+        <div class="footer__track" id="footerTrack">
+          <span>Let's work together</span><span class="sep">✦</span>
+          <span>Let's work together</span><span class="sep">✦</span>
+          <span>Let's work together</span><span class="sep">✦</span>
+          <span>Let's work together</span><span class="sep">✦</span>
+        </div>
+      </div>
+
+      <div class="container footer__contact">
+        <ul class="footer__lines reveal">
+          <li><a href="mailto:patrik.prochazka.ez@gmail.com">patrik.prochazka.ez@gmail.com</a></li>
+        </ul>
+        <p class="footer__copy">© <span id="year"></span> Patrik Procházka. All rights reserved.</p>
+      </div>
+    </footer>
+  </main>
+
+  <!-- ===================== MORPH OVERLAY ===================== -->
+  <!-- Scroll-driven shared element: hero portrait card morphs into the business card -->
+  <div class="morph" id="morph" aria-hidden="true">
+    <div class="morph__inner">
+      <div class="morph__face morph__face--portrait">
+        <img src="assets/portrait.jpg" alt="" />
+      </div>
+      <div class="morph__face morph__face--biz">
+        <span class="biz-card__logo">PP<span class="dot">.</span></span>
+        <div class="biz-card__meta">
+          <strong>Patrik Procházka</strong>
+          <span>BBA · Designer &amp; Developer</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===================== FLOATING PILL NAV ===================== -->
+  <nav class="pill" id="pill" aria-label="Primary">
+    <a href="#hero" class="pill__home" data-scroll aria-label="Home">
+      <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l9-8 9 8"/><path d="M5 10v10h14V10"/></svg>
+    </a>
+    <a href="#skills" class="pill__link" data-scroll>Skills</a>
+    <a href="#about" class="pill__link" data-scroll>About</a>
+    <a href="#work" class="pill__link" data-scroll>Portfolio</a>
+    <a href="#contact" class="pill__cta" data-scroll>Contact me</a>
+  </nav>
+
+  <!-- Libraries -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

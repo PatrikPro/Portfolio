@@ -1,0 +1,13 @@
+# Dependencies
+node_modules/
+
+# Local tooling / editor config
+.claude/
+
+# Scratch: screenshot-capture working dir (browser profiles + raw captures)
+.shots/
+
+# OS / misc
+.DS_Store
+Thumbs.db
+*.log

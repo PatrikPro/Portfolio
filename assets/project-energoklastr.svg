@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 750" width="1000" height="750">
+  <rect width="1000" height="750" fill="#eceae3"/>
+  <line x1="70" y1="360" x2="930" y2="360" stroke="#d8d5cc" stroke-width="2"/>
+  <path d="M70 300 L500 300 L500 232 L930 232" fill="none" stroke="#bdb9ad" stroke-width="3" stroke-dasharray="9 9"/>
+  <path d="M70 300 C 300 300, 360 198, 520 236 C 640 264, 760 230, 930 234" fill="none" stroke="#3b4cff" stroke-width="4"/>
+  <circle cx="520" cy="236" r="8" fill="#3b4cff"/>
+  <text x="70" y="102" fill="#57544c" font-family="Manrope, Arial, sans-serif" font-size="28" font-weight="700" letter-spacing="4">ENERGOKLASTR</text>
+  <text x="930" y="102" fill="#8a8780" font-family="Manrope, Arial, sans-serif" font-size="28" font-weight="600" text-anchor="end">2016</text>
+  <text x="70" y="602" fill="#14130f" font-family="Manrope, Arial, sans-serif" font-size="72" font-weight="800">Model-Predictive</text>
+  <text x="70" y="680" fill="#14130f" font-family="Manrope, Arial, sans-serif" font-size="72" font-weight="800">Control</text>
+</svg>
